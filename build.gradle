@@ -1,0 +1,15 @@
+apply plugin 'java'
+
+sourceSets{
+	
+	main{
+		java{
+			srcDir 'src/co/edu/udea/main'
+		}
+	}
+	test{
+		java{
+			srcDir 'src/co/edu/udea/test'
+		}
+	}
+}
